@@ -628,6 +628,11 @@ a {
     white-space: nowrap;
 }
 
+.footer .row.row-top .item a:hover {
+    color: #aeaeb0;
+    text-decoration: underline;
+}
+
 .footer .row.row-top .desc {
     white-space: normal;
     line-height: 1.75;
