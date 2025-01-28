@@ -35,7 +35,7 @@ a {
 
 .btn {
     display: inline-block;
-    width: 98px;
+    min-width: 98px;
     padding: 18px 16px;
     border-radius: 12px;
     background: var(--primary-color);
@@ -319,7 +319,8 @@ a {
 
 /* featured-list-item */
 .featured .list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 70px;
 }
@@ -601,7 +602,7 @@ a {
 }
 
 .footer .row.row-top {
-    gap: 185px;
+    column-gap: 185px;
 }
 
 .footer .row.row-top .heading {
